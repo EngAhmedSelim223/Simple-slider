@@ -1,0 +1,39 @@
+
+.col-md-4 {
+    max-height: 400px;
+}
+
+.item{
+    position: relative;
+    height: 100%;
+}
+
+.item .caption{
+    position: absolute;
+    bottom: 30px;
+    left: 10%;
+    width: 80%;
+}
+.item img{
+    cursor: pointer;
+    height: 100%;
+    object-fit: cover;
+}
+.light-container{
+    background-color: rgba(0,0,0,0.25);
+}
+.light-item{
+    width: 70%;
+    height: 70vh;
+    background-image: url('../imgs/meal-1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+#close{
+    cursor: pointer;
+}
+
+#prev, #next{
+    cursor: pointer;
+}
